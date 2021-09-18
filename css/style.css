@@ -1,0 +1,72 @@
+#body {
+  background-color: #323942;
+  background-image: url(images/nyc.jpg);
+  background-size: 900px;
+}
+
+.container{
+  opacity: 0.9;
+}
+
+#city {
+  font-size: 45px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.card-body {
+  text-align: center;
+}
+
+#description{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 35px;
+}
+.card{
+    height: 500px;
+    margin: auto;
+    width: 500px;
+    border-radius: 20px;
+    border: #2f3336;
+    overflow: hidden;
+  }
+
+{
+  box-sizing: border-box;
+}
+
+.bottom {
+    background: #2f3336;
+    height: 150px;
+    border: 1px solid #2f3336;
+}
+
+.air-quality {
+  display: flex;
+}
+
+#logo-temp{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  justify-content: center;
+}
+
+#temperature{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 35px;
+}
+
+#date{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 35px;
+}
+
+#info{
+
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-top: 50px;
+
+}
